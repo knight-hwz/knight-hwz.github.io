@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://knight-hwz.github.io</id>
-    <title>Wenzhong Huang</title>
-    <updated>2020-04-23T10:44:11.386Z</updated>
+    <title>林子媚是大傻子</title>
+    <updated>2020-04-23T10:52:46.579Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://knight-hwz.github.io"/>
     <link rel="self" href="https://knight-hwz.github.io/atom.xml"/>
-    <subtitle>林子媚是大傻子</subtitle>
     <logo>https://knight-hwz.github.io/images/avatar.png</logo>
     <icon>https://knight-hwz.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Wenzhong Huang</rights>
+    <rights>All rights reserved 2020, 林子媚是大傻子</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://knight-hwz.github.io/post/hello-gridea/</id>
