@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title></title>
+<title>关于随机效应的理解 | </title>
 <meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -23,6 +23,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://knight-hwz.github.io"></a></h3>
@@ -68,45 +69,37 @@
   </div>
 </nav>
 
-
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
+          <article class="article">
+            <h1>关于随机效应的理解</h1>
+            <p class="article-meta">
+              2020-04-23
+              
+                <a href="https://knight-hwz.github.io/tag/zvsVOVctr/" class="badge secondary">
+                  统计
+                </a>
+              
+            </p>
+            
+            <div class="post-content">
+              <p>随机效应模型假设的是虽然我们只观察到了33个社区，但是通过建立随机效应模型我们把社区水平上的效应作为一个高斯分布（u,sigma）来拟合并且纳入模型，从而消除由于样本所在不同社区而带来的影响（比如不同社区的样本量的差异，同一社区样本的观测的可能的聚集效应）</p>
+<p>详情可以参考外文解答：https://stats.stackexchange.com/questions/4700/what-is-the-difference-between-fixed-effect-random-effect-and-mixed-effect-mode</p>
+<p>问题：Difference between random effetcs and dummy coding of a categorical variable：<br>
+A：Your dummy coding models are just treating BB as a fixed effect. You should read some basic discussions of fixed vs random effects. Briefly, treating BB as random means that you assume that γiγi are sampled from an underlying normal distribution, and you fit its mean and variance instead of fitting every single γi<br>
+（ref: https://stats.stackexchange.com/questions/310089/difference-between-random-effetcs-and-dummy-coding-of-a-categorical-variable</p>
+<p>😜😜😜😜😜</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
           
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://knight-hwz.github.io/post/guan-yu-sui-ji-xiao-ying-de-li-jie/">关于随机效应的理解</a>
-    </h2>
-    <p class="article-meta">
-      2020-04-23
-      
-        <a href="https://knight-hwz.github.io/tag/zvsVOVctr/" class="badge secondary">
-          统计
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      
-    </p>
-    <div class="row">
-      <a href="https://knight-hwz.github.io/post/guan-yu-sui-ji-xiao-ying-de-li-jie/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-
         </div>
         
-        <div class="row flex-edges">
-  
-  
-</div>
-
       </div>
-      
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://knight-hwz.github.io/images/avatar.png?v=1587639984807" class="no-responsive avatar">
@@ -147,7 +140,7 @@
     </div>
     <div class="row">
       
-        <a href="https://knight-hwz.github.io/tag/zvsVOVctr/" class="badge success">
+        <a href="https://knight-hwz.github.io/tag/zvsVOVctr/" class="badge secondary">
           统计
         </a>
       
@@ -158,7 +151,9 @@
   </div>
 </div>
 
+
     </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 <script type="application/javascript">
